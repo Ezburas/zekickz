@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    align-items: center;
+    font-family: Arial;
+    justify-content: flex-end;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+    z-index: 10;
+  }
+  header img {
+    margin-right: auto;
+    transition: all 0.4s;
+    background-color: rgb(255, 255, 255);
+  }
+  header ul {
+    display: flex; 
+    width: 100%;
+    list-style: none;
+  }
+  header ul li {
+    flex-grow: 1;
+    text-align: center;
+  }
+  header ul li a {
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all 0.4s;
+  }
+  header ul li a:hover {
+    background-color: rgb(83, 80, 80);
+    color: white;
+  }
+  .alto100 {
+    height: 100px;
+  }
+  .centrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+  }
+  
+
+h4{
+    margin-top: 15px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1,5;
+    font-weight: normal;
+    padding: 10px 0;
+    font-size: 12px;
+    color: white;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.wap {
+    width: 100%;
+    margin: auto;
+    background-color: black;
+}
+.bienvenidos {
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid green;
+    color: white;
+
+}
+.contenedor-columnas {
+    width: 100%;
+    margin: auto;
+    border: 1px solid blue;
+}
+.columnasx3 {
+    width: 33.333%;
+    background-color: black;
+    float: left;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin:auto 
+  
+}
+.columnasx3 img{
+    width: 100%;
+}
+.banner-1:hover{
+    background-color: #858282;
+    transition: 00.4s;
+}
+.banner-1{
+    width: 100%;
+    background-color: #3e3e3e;
+    clear: both;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: 00.4s;
+}
+.banner-1 h3{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.banner-1 a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255)
+}
+#particles-js{
+  background: url(imagenes/f-1.jpg);
+  background-position: center;
+  background-attachment: contain;
+  background-size: cove;
+  width: 100%;
+
+}
+.ancho-letras{
+  top: 120px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+
+}
+.letras-slider{
+width: 80%;
+margin: auto;
+}
+.letras-slider h1{
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 300%;
+}
+.letras-slider p{
+  color: #fff;
+  font-size: 150%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 50px;
+}
+@media only screen and (max-width: 580px){
+  .columnasx3{
+    width: 100%;
+  }
+  .banner-1{
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .header{
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-evenly;
+  }
+
+  .columnasx3{
+    width: 100%;
+  }
+  .banner-1{
+    width: 100%;
+}
+}
+
